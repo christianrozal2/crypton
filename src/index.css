@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #12132A;
+  color: white;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: normal;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 104.5%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 104.5%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+p {
+  color: #767799;
+  line-height: 168.5%;
+}
+
+li {
+  list-style: none;
+  color: #767799;
+}
+
+button {
+  border: 1px solid white;
+  background: #12132A;
+  color: white;
+  padding: 12px 42px;
+  font-size: 20px;
+}
+
+.button__larger {
+  padding: 22px 42px; 
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 640px) { 
+    max-width: 640px;
+  }
+  @media (min-width: 768px) { 
+    max-width: 768px; 
+  }
+  @media (min-width: 1024px) { 
+    max-width: 1024px; 
+  }
+  @media (min-width: 1280px) { 
+    max-width: 1280px; 
+  }
+}
+
+
